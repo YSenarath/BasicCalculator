@@ -21,3 +21,7 @@ QUnit.test("Testing Divide  function", function(assert) {
 QUnit.test("Testing Divide  function", function(assert) {
     assert.equal(Infinity, divide(5, 0), "5 / 0 is infinity");
 });
+
+QUnit.test("Testing Divide  function", function(assert) {
+    assert.equal(Infinity, divide(5, 0), "5 / 0 is infinity");
+});
