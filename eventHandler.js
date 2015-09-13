@@ -2,67 +2,127 @@
  * Created by Nadun on 13-Aug-15.
  */
 
-function equalButton() {
+var currentFormulaStatus;
 
+function equalButton() {
+    if (currentFormulaStatus == "append") {
+        var display = document.getElementById("display");
+        var currentFormula = document.getElementById("currentFormula");
+        currentFormula.innerHTML = currentFormula.innerHTML + display.value;
+        display.value = calculate(currentFormula.innerHTML);
+    }
+    currentFormulaStatus = "replace";
 }
 
+function negateButton() {
+    if (currentFormulaStatus == "replace") {
+        var currentFormula = document.getElementById("currentFormula");
+        currentFormula.innerHTML = "";
+    }
+    var display = document.getElementById("display");
+    if (display.value != "") {
+        display.value = "-(" + display.value + ")";
+    } else {
+        display.value = "-";
+    }
+    currentFormulaStatus = "append";
+}
+
+function deleteButton() {
+    if (currentFormulaStatus == "replace") {
+        var currentFormula = document.getElementById("currentFormula");
+        currentFormula.innerHTML = "";
+    }
+    var display = document.getElementById("display");
+    display.value = display.value.substring(0, display.value.length - 1);
+    currentFormulaStatus = "append";
+}
 
 function clearButton() {
-    var elem = document.getElementById("input_area");
-    elem.value = "";
+    var display = document.getElementById("display");
+    var currentFormula = document.getElementById("currentFormula");
+    display.value = "";
+    currentFormula.innerHTML = "";
+    currentFormulaStatus = "replace";
+}
+
+function appendOperator(operator) {
+    var currentFormula = document.getElementById("currentFormula");
+    if (currentFormulaStatus == "replace") {
+        currentFormula.innerHTML = "";
+    }
+    var display = document.getElementById("display");
+    currentFormula.innerHTML = currentFormula.innerHTML + display.value + operator;
+    display.value = "";
+    currentFormulaStatus = "append";
+}
+
+function append(value) {
+    if (currentFormulaStatus == "replace") {
+        var currentFormula = document.getElementById("currentFormula");
+        currentFormula.innerHTML = "";
+    }
+    var display = document.getElementById('display');
+    display.value = display.value + value;
+    currentFormulaStatus = "append";
+}
+
+function divideButton() {
+    appendOperator("/")
+}
+
+function multiplyButton() {
+    appendOperator("*");
+}
+
+function subButton() {
+    appendOperator("-");
+}
+
+function plusButton() {
+    appendOperator("+");
 }
 
 function dotButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + ".";
+    append(".");
 }
 
 function zeroButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "0";
+    append(0);
 }
 
 function oneButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "1";
+    append(1);
 }
 
 function twoButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "2";
+    append(2);
 }
 
 function threeButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "3";
+    append(3);
 }
 
 function fourButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "4";
+    append(4);
 }
 
 function fiveButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "5";
+    append(5);
 }
 
 function sixButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "6";
+    append(6);
 }
 
 function sevenButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "7";
+    append(7);
 }
 
 function eightButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "8";
+    append(8);
 }
 
 function nineButton() {
-    var button = document.getElementById('input_area');
-    button.value = button.value + "9";
+    append(9);
 }
