@@ -1,0 +1,41 @@
+.button {
+    height: 100%;
+    float: left;
+    font-size: 20px;
+}
+
+.fourButtonRow {
+    width: 25%;
+}
+
+.threeButtonRow {
+    width: 33.33%;
+}
+
+.buttonSet {
+    height: 50px;
+    width: 200px;
+}
+
+#display {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: right;
+}
+
+#currentFormula {
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.body {
+    display: table;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
