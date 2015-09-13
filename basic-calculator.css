@@ -19,9 +19,10 @@
 
 #display {
     height: 50px;
-    width: 200px;
+    width: 195px;
     font-size: 20px;
     text-align: right;
+    background-color: azure;
 }
 
 #currentFormula {
@@ -31,11 +32,18 @@
     text-align: right;
 }
 
-.body {
+.calculator {
     display: table;
     margin: 0 auto;
+    padding: 3em;
+    background-color: skyblue;
 }
 
 h1 {
     text-align: center;
+    font-family: fantasy;
+}
+
+body {
+    background-color: aliceblue;
 }

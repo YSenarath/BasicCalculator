@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7116086d-fb12-44da-854f-d66bc3f1fb7c" name="Default" comment="">
+    <list default="true" id="7116086d-fb12-44da-854f-d66bc3f1fb7c" name="Default" comment="adjustments to the interface">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-calculator.css" afterPath="$PROJECT_DIR$/basic-calculator.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-calculator.html" afterPath="$PROJECT_DIR$/basic-calculator.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="basic-calculator.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic-calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2685026">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.2151463">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -39,17 +39,7 @@
         <entry file="file://$PROJECT_DIR$/basic-calculator.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eventHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -77,8 +67,8 @@
         <option value="$PROJECT_DIR$/calculator.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/eventHandler.js" />
-        <option value="$PROJECT_DIR$/basic-calculator.html" />
         <option value="$PROJECT_DIR$/basic-calculator.css" />
+        <option value="$PROJECT_DIR$/basic-calculator.html" />
       </list>
     </option>
   </component>
@@ -220,7 +210,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442130497940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added css styling">
+      <created>1442134246240</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1442134246240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -280,7 +276,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modifications to the web interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifications to the web interface" />
+    <MESSAGE value="added css styling" />
+    <MESSAGE value="adjustments to the interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjustments to the interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -367,7 +365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eventHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2800659">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
@@ -376,15 +374,15 @@
     <entry file="file://$PROJECT_DIR$/basic-calculator.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic-calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2685026">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.2151463">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
